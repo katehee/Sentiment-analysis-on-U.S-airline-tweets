@@ -14,3 +14,9 @@ Figures:
 - positive_20.png (data: positive_20.xlsx)
 - temp-plot.html (interactive radar plots by Plotly)
 - tsne_cluster.png 
+
+Techniques/Tools: 
+- NLP, logistic regression, naive bayes, SVM, XGboost
+- t-SNE plot, tableau, data visualization python libraries 
+- text preprocessing for sentiment analysis 
+- keyword analysis (Doc2Vec, gensim) 
