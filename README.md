@@ -1,25 +1,62 @@
-Project: Sentiment analysis on U.S airline tweets 
+## Project: Sentiment analysis on U.S airline tweets 
 
-Project document: final_report.pdf 
+### 1. Objective: 
+- Analyze text data from 15000 tweets on US airlines and obtain a more comprehensive views on how traverler feels about U.S airline services and investigate customer likes, dislikes and expectations. 
+        
+### 2. Project Code and documentation:  
+- project_code.ipynb
+- final_report.pdf 
 
-Dataset: tweet.csv
+## 3. Data: tweet.csv
+Kaggle: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+15000 tweets on six US airlines 
 
-Objective: 
-provide a more comprehensive views on how traveler feels about airline services 
-and outline customer likes, dislikes and expectations
+## 4. Method: 
 
-Figures: 
+ (a). Data Preprocessing
+ 
+	- Number of tweets for each airline, distribution of sentiments acorss tweets, main reasons for the negativity, most frequent words appeared in positive and negative tweets 
+  
+	- EDA : EDA: pie chart, barplot, Plotly, Word Cloud (Tableau) 
+	
+	- Text: Data cleaning, Tokenization, Train_Test_split, Embedding (Count vectorizer & Tf-idf Vectorizer) 
+
+ (b). Sentiment analysis
+ 
+	- Tested four machine learning classifiers (Losgistic Regression, Naive Bayes, SVM, XGBoost)   
+  
+	- Hyperparameters are tuned using grid search 
+	
+	- Performance evaluation metrics used: accuracy & AUC score 
+  
+  
+ (c). Keyword analysis 
+ 
+	- Doc2Vec to calculate the relationship between tweets and words 
+  
+	- 10 most similar words for each positive and negative keywords from sentiment analysis are retrieved
+	
+
+   (d). Conclusion
+ 
+	- Logistic regression performed the best in sentiment classification with an accuracy of 91%
+  
+	- This proposed model can be used to identify sentiments of future tweets and analyze customer experience and any improvement to be made 
+	
+  
+## 5. techniques/Tools: 
+- NLP, logistic regression, naive bayes, SVM, XGboost
+- t-SNE plot, tableau, data visualization python libraries 
+- text preprocessing for sentiment analysis 
+- keyword analysis (Doc2Vec, gensim) 
+
+#### Figures: 
 - pos_neg_neut_wordcloud.png (data: WordCloud.xlsx)
 - negative_20.png (data: negative_20.xlsx)
 - positive_20.png (data: positive_20.xlsx)
 - temp-plot.html (interactive radar plots by Plotly)
 - tsne_cluster.png 
 
-Techniques/Tools: 
-- NLP, logistic regression, naive bayes, SVM, XGboost
-- t-SNE plot, tableau, data visualization python libraries 
-- text preprocessing for sentiment analysis 
-- keyword analysis (Doc2Vec, gensim) 
 
 ![0001](https://user-images.githubusercontent.com/89289320/163649479-35296ccc-cc6b-4006-882c-456381128f98.jpg)
 ![0002](https://user-images.githubusercontent.com/89289320/163649481-0f7cd5e0-1588-437e-8dc9-e96bf1329453.jpg)
