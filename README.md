@@ -4,8 +4,8 @@
 - Analyze text data from 15000 tweets on US airlines and obtain a more comprehensive views on how traverler feels about U.S airline services and investigate customer likes, dislikes and expectations. 
         
 ### 2. Project Code and documentation:  
-- project_code.ipynb
-- final_report.pdf 
+- <a href="https://github.com/katehee/Sentiment-analysis-on-U.S-airline-tweets/blob/master/project_code.ipynb" target="_blank">project_code.ipynb</a>
+- <a href="https://github.com/katehee/Sentiment-analysis-on-U.S-airline-tweets/blob/master/Final%20Project%20Report.pdf" target="_blank">project_report.pdf</a>
 
 ## 3. Data: tweet.csv
 Kaggle: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
