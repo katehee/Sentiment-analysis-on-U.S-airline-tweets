@@ -23,7 +23,7 @@ Kaggle: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
 
  (b). Sentiment analysis
  
-	- Tested four machine learning classifiers (Losgistic Regression, Naive Bayes, SVM, XGBoost)   
+	- Tested four machine learning classifiers (Logistic Regression, Naive Bayes, SVM, XGBoost) with two vectorizers
   
 	- Hyperparameters are tuned using grid search 
 	
